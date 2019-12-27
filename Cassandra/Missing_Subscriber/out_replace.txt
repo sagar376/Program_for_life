@@ -1,0 +1,61 @@
+#!/bin/sh
+sed 's/31800009785-31800009786/31800009785-31800009786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800009785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800009785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800019785-31800019786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800019785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800019785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800029785-31800029786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800029785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800029785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800039785-31800039786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800039785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800039785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800049785-31800049786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800049785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800049785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800059785-31800059786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800059785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800059785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800069785-31800069786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800069785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800069785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800079785-31800079786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800079785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800079785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800089785-31800089786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800089785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800089785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800099785-31800099786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800099785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800099785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800109785-31800109786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800109785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800109785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800119785-31800119786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800119785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800119785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800129785-31800129786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800129785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800129785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800139785-31800139786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800139785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800139785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800149785-31800149786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800149785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800149785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800159785-31800159786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800159785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800159785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800169785-31800169786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800169785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800169785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800179785-31800179786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800179785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800179785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800189785-31800189786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800189785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800189785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800199785-31800199786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800199785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800199785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800209785-31800209786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800209785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800209785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800219785-31800219786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800219785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800219785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800229785-31800229786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800229785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800229785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800239785-31800239786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800239785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800239785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800249785-31800249786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800249785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800249785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800259785-31800259786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800259785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800259785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800269785-31800269786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800269785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800269785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800279785-31800279786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800279785.xml 
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800279785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800289785-31800289786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800289785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800289785.xml -r 10 -a 10 -l 2 & 
+sed 's/31800009785-31800009786/31800299785-31800299786/g' pin_change_crt_Subs_Rogers_vmd_vmr.xml > pin_change_crt_Subs_Rogers_vmd_vmr_31800299785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_vmd_vmr_31800299785.xml -r 10 -a 10 -l 2 &

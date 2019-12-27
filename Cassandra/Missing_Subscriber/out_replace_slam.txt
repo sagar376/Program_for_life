@@ -1,0 +1,13 @@
+#!/bin/sh
+sed sed 's/31806000000-31806060001/31806009785-31806009786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31806009785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31806009785.xml -r 10 -a 10 -l 2 & 
+sed 's/31806000000-31806060001/31806019785-31806019786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31806019785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31806019785.xml -r 10 -a 10 -l 2 & 
+sed 's/31806000000-31806060001/31806029785-31806029786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31806029785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31806029785.xml -r 10 -a 10 -l 2 & 
+sed 's/31806000000-31806060001/31806039785-31806039786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31806039785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31806039785.xml -r 10 -a 10 -l 2 & 
+sed 's/31806000000-31806060001/31806049785-31806049786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31806049785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31806049785.xml -r 10 -a 10 -l 2 & 
+sed 's/31806000000-31806060001/31806059785-31806059786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31806059785.xml
+nohup ./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31806059785.xml -r 10 -a 10 -l 2

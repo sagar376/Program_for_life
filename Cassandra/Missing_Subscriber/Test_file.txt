@@ -1,0 +1,2 @@
+sed 's/31806000000-31806060001/31800019786-31800019786/g' pin_change_crt_Subs_Rogers_slam.xml > pin_change_crt_Subs_Rogers_slam_31800019786.xml
+./mcap -t2 -m2 -h 127.0.0.1 -p 8090 -f pin_change_crt_Subs_Rogers_slam_31800019786.xml -r 10 -a 10 -l 2
